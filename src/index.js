@@ -4,3 +4,6 @@ import './index.css';
 
 const root = createRoot(document.querySelector('#root'));
 root.render(<App />);
+
+app.listen(process.env.PORT || 3000);
+
